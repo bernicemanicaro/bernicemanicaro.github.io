@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+
+    <form action="https://www.google.com/" method="GET">
+
+        <label for="first-name">First Name:</label>
+        <input id="first-name" name="first-name" type="text" required placeholder="John" />
+
+        <label for="last-name">Last Name:</label>
+        <input id="last-name" name="last-name" type="text" required placeholder="Smith" />
+
+        <div>
+            <label for="male">Male:</label>
+            <input id="male" name="gender" type="radio" value="Male">
+
+            <label for="female">Female:</label>
+            <input id="female" name="gender" type="radio" value="Female">
+        </div>
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" required placeholder="Your email" />
+
+        <label for="password">Password:</label>
+        <input id="password" name="password" type="password" minlength="5" maxlength="10" required placeholder="Your password" />
+        <div>
+            <label for="birthday">Birthday:</label>
+
+            <select name="Month">
+                <option value="">Month</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+            </select>
+
+            <select name="Day">
+                <option value="">Day</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+            </select>
+
+            <select name="Year">
+                <option value="">Year</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+            </select>
+        </div>
+        <div>
+            <label for="termsandconditions">I agree with the terms and conditions:</label>
+            <input id="termsandconditions" name="termsandconditions" type="checkbox" value="termsandconditions">
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
