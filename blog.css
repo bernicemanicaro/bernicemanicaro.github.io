@@ -1,0 +1,35 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 20px solid #bdc7cf;
+    padding: 20px;
+    margin: 20px auto;
+    width: 700px;
+     }
+p{
+    text-align: justify;
+}
+
+.date{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    color: #3098dd
+}
+
+.title{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #354b63;
+}
+
+     
+.lineleft{
+padding: 20px;
+border-left: 10px solid #bdc7cf;
+     }
+
+hr.style-one {
+        border: 0;
+        height: 1px;
+        background: #bdc7cf;
+        background-image: linear-gradient(to right,#bdc7cf);
+    }
